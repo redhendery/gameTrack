@@ -1,18 +1,5 @@
 import Ember from 'ember';
 
-// let game = {[
-//   home: 'Canterbury Red Devils',
-//   away: 'Dunedin Thunder',
-//   venue: 'Dunedin Ice Stadium',
-//   timeAndDate: 'Saturday July 3rd 4:45pm',
-//   homeLineup: 'Home team goes here',
-//   awayLineup: 'Away team goes here',
-//   homeCoach: 'Steve the coach',
-//   awayCoach: 'Dave the coach',
-//   officials: 'That guy Ryan from Christchurch',
-//   scratchPlayers: 'Aaron Bryant'
-// ]};
-
 let game = [{
   home: 'Canterbury Red Devils',
   away: 'Dunedin Thunder',

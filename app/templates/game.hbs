@@ -1,6 +1,7 @@
 <div class="jumbo">
   <h2>Welcome to the NZIHL Game Center</h2>
   <p>Click the games below for stats, lineups and game times.</p>
+  <p>Team on bye: Southern Stampede</p>
   <p>{{#link-to 'about' class="button"}}
     About Us
   {{/link-to}}</p>
@@ -12,12 +13,12 @@
 
 <div class="game">
   {{#each model as |game|}}
-    <h3>Matchup {{game.home}} v {{game.away}}</h3>
-    <span>Location</span> {{game.venue}}
-    <span>Time</span> {{game.dateAndTime}}
+    <h3>Matchup: {{game.home}} v {{game.away}}</h3>
+    <span>Location:</span> {{game.venue}}
+    <span>Time:</span> {{game.dateAndTime}}
     <span>Location:</span> {{game.city}}
-    <span>Game Officials</span> {{game.officials}}
-    <span>Scratch Players</span> {{game.scratchPlayers}}
+    <span>Game Officials:</span> {{game.officials}}
+    <span>Scratch Players:</span> {{game.scratchPlayers}}
     <div class="lineups">
       <h3>Lineups</h3>
       <span>Home Lineup {{game.homeLineup}}</span>
