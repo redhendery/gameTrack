@@ -12,8 +12,7 @@
 
 <div class="game">
   {{#each model as |game|}}
-    <h3>Home Team{{game.home}}</h3>
-    <span>Away Team</span> {{game.away}}
+    <h3>Matchup {{game.home}} v {{game.away}}</h3>
     <span>Location</span> {{game.venue}}
     <span>Time</span> {{game.dateAndTime}}
     <span>Location:</span> {{game.city}}
@@ -21,10 +20,10 @@
     <span>Scratch Players</span> {{game.scratchPlayers}}
     <div class="lineups">
       <h3>Lineups</h3>
-      <span>Home Lineup{{game.homeLineup}}</span>
-      <span>Home Coach{{game.homeCoach}}</span>
-      <span>Away Lineup{{game.awayLineup}}</span>
-      <span>Away Coach{{game.awayCoach}}</span>
+      <span>Home Lineup {{game.homeLineup}}</span>
+      <span>Home Coach {{game.homeCoach}}</span>
+      <span>Away Lineup {{game.awayLineup}}</span>
+      <span>Away Coach {{game.awayCoach}}</span>
     </div>
   {{/each}}
 </div>
