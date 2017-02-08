@@ -29,9 +29,9 @@ img {
   height: auto;
 }
 
-/* This just pushes contact form down */
-.form-group {
-  padding-top: 15px;
+/* This just pushes contact form into place */
+.row-contact {
+  padding: 15px 50px 0 35px;
 }
 
 .footer {
