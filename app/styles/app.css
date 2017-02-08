@@ -29,6 +29,11 @@ img {
   height: auto;
 }
 
+/* This just pushes contact form down */
+.form-group {
+  padding-top: 15px;
+}
+
 .footer {
   position: absolute;
   bottom: 0;
