@@ -5,7 +5,18 @@ html {
 
 body {
   margin-bottom: 60px;
-  padding-top: 30px;
+}
+
+.navbar-header {
+  padding-left: 50px
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+}
+.navbar .navbar-collapse {
+  text-align: center;
 }
 
 .row {
